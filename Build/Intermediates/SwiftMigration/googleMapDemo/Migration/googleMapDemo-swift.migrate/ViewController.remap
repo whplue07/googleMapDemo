@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/whplue07/Desktop/testing/googleMapDemo/googleMapDemo/ViewController.swift",
+  "offset": 279,
+  "remove": 192,
+  "text": "let camera = GMSCameraPosition.cameraWithLatitude(-33.868,\n            longitude:151.2086, zoom:6)\n        let mapView = GMSMapView.mapWithFrame(CGRectZero, camera:camera)\n        \n        let",
+ }
+]

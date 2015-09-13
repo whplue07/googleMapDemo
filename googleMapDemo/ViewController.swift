@@ -8,11 +8,32 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let camera = GMSCameraPosition.cameraWithLatitude(-33.868,
+            longitude:151.2086, zoom:6)
+        let mapView = GMSMapView.mapWithFrame(CGRectZero, camera:camera)
+        
+        let marker = GMSMarker()
+        marker.position = camera.target
+        //marker.position = CLLocationCoordinate2DMake(<#latitude: CLLocationDegrees#>, <#longitude: CLLocationDegrees#>)
+        
+        marker.snippet = "Hello World"
+        marker.tappable = true
+        marker.icon = UIImage(named: "Paul")
+        marker.draggable = true
+        marker.appearAnimation = kGMSMarkerAnimationPop
+        marker.map = mapView
+        
+        
+        
+        self.view = mapView
+        
+        print("It's a branch test")
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +43,6 @@ class ViewController: UIViewController {
 
 
 }
+
+
 

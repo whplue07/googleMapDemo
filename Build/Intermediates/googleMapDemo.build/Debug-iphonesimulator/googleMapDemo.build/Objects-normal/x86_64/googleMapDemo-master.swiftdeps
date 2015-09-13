@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.57.3 clang-700.0.72)"
+options: "066bd61575e8fbf3d85e5f4f294fc6f5"
+build_time: [495425338, 768513000]
+inputs: 
+	"/Users/whplue07/Desktop/testing/googleMapDemo/googleMapDemo/ViewController.swift": [495424818, 0]
+	"/Users/whplue07/Desktop/testing/googleMapDemo/googleMapDemo/AppDelegate.swift": [495424818, 0]
